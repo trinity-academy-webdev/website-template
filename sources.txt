@@ -1,0 +1,5 @@
+navbar - https://github.com/devansharora18/responsive-navbar/blob/main/styles.css - idea for extension: try responsive version
+add css gradients - https://cssgradient.io/gradient-backgrounds/ 
+or change background gradient to an image
+figure out how flex box works
+one of the navbar links is already implemented - try doing another one (either to same page or another)
