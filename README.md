@@ -1,8 +1,12 @@
 # Trinity Academy Project
 
-Charity website template for HPE sessions at Trinity Academy
+This template is the starting point for HPE-led sessions at Trinity Academy. We will continue the development of a website to showcase charity events and deploy it using GitHub pages.
+
+As you work through the project, complete this document and check the boxes next to the objectives as you complete them.
 
 # 1. GitHub Setup
+
+In this session, you'll set up your development environment and get started with GitHub.
 
 Objectives:
 
@@ -19,6 +23,8 @@ Objectives:
 
 # 2. Requirements & Start Development
 
+In this session, you'll plan your tasks and begin making changes to the website's content and design.
+
 Objectives: 
 
 - [ ] Prioritise the tasks, deciding which are most important. Then reorder the tasks below.
@@ -26,23 +32,28 @@ Objectives:
 
 Tasks:
 
-1. Homepage
-2. Gallery page
-3. etc
-4. 
-5. Extension: Do what you want
+1. Title
+2. Intro text
+2. Gallery Section
+3. Events Section
+4. Donation Popup
+5. *Extension: Make your own changes*
 
 
 # 3. Continue Development
+
+In this session, you'll review your progress and make any necessary adjustments to stay on track.
 
 Objectives:
 
 - [ ] Assess your progress, do you have time to complete all the tasks?
     - [ ] If necessary, copy the tasks list with the new priorities.
-- [ ] Change the HTML and CSS files to make the changes required.
+- [ ] Modify the HTML and CSS files to make the changes required.
 
 
 # 4. Reflection & Feedback
+
+In this final session, you'll reflect on your work and gather feedback from your peers.
 
 Objectives:
 
@@ -50,4 +61,9 @@ Objectives:
 - [ ] Open your site in GitHub pages, then walk around the classroom to see what your classmates have done.
 
 ## Reflection:
-We need to write some questions here...
+
+1. What was the most challenging part of the project?
+2. Which part of the project did you enjoy the most?
+3. What did you learn about web development through this project?
+4. How would you improve your workflow or process for future projects?
+5. What feedback did you receive from your classmates, and how will you use it to improve your work?
