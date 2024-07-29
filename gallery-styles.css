@@ -87,6 +87,7 @@ main {
 #hero-section h1 {
     padding-bottom: 20px;
     font-size: 3rem;
+	text-align: center;
 }
 
 .section { 
