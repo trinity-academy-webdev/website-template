@@ -10,7 +10,12 @@ Objectives:
 - [ ] Copy the [template repository](https://github.com/ethanbrews/charity-site-template/) to your new GitHub account.
 - [ ] Clone the **repository** to your PC and open it in [Visual Studio Code](https://code.visualstudio.com/)
 - [ ] Deploy the website and view it live.
+- [ ] View the website locally using the [Live Preview](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server) extension.
 - [ ] *Extension: Play around with the website and view your changes*
+
+> [!IMPORTANT]  
+> Remember to record your progress as you go along!
+
 
 # 2. Requirements & Start Development
 
@@ -27,19 +32,17 @@ Tasks:
 4. 
 5. Extension: Do what you want
 
+
 # 3. Continue Development
 
 Objectives:
 
 - [ ] Assess your progress, do you have time to complete all the tasks?
+    - [ ] If necessary, copy the tasks list with the new priorities.
+- [ ] Change the HTML and CSS files to make the changes required.
 
 
-
-# 4. Complete Development
-
-- [ ] Assess your progress, do you have time to complete all the tasks?
-
-# 5. Reflection & Feedback
+# 4. Reflection & Feedback
 
 Objectives:
 
