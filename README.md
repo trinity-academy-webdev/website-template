@@ -11,7 +11,7 @@ In this session, you'll set up your development environment and get started with
 Objectives:
 
 - [ ] Create a [GitHub](https://github.com/) account.
-- [ ] Copy the [template repository](https://github.com/ethanbrews/charity-site-template/) to your new GitHub account.
+- [ ] Copy the [template repository](https://github.com/trinity-academy-webdev/website-template) to your new GitHub account.
 - [ ] Clone the **repository** to your PC and open it in [Visual Studio Code](https://code.visualstudio.com/)
 - [ ] Deploy the website and view it live.
 - [ ] View the website locally using the [Live Preview](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server) extension.
