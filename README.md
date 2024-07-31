@@ -1,6 +1,6 @@
 # Trinity Academy Project
 
-This template is the starting point for HPE-led sessions at Trinity Academy. We will continue the development of a website to showcase charity events and deploy it using GitHub pages.
+This template is the starting point for web development sessions at Trinity Academy. We will continue the development of a website to showcase charity events and deploy it using GitHub pages.
 
 As you work through the project, complete this document and check the boxes next to the objectives as you complete them.
 
