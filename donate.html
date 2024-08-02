@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Donate</title>
+    <meta name="description" content="">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html">
+            <p class="logo">Logo</p>
+        </a>
+        <ul class="nav_links">
+            <li><a href="#link1-section">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="events.html">Link 3</a></li>
+            <li><a href="#">Link 4</a></li> <!-- points to OTR website -->
+        </ul>
+        <a class="cta" href="#donate.html"><button>donate button here</button></a>
+        <div id="popup"></div>
+    </header>
+
+
+    <main>
+        <div id="hero-section">
+            <div class="card-form-container">
+                <h2>Enter Your Card Details</h2>
+                <p>Please fill in the details below to complete your payment.</p>
+                <form>
+                    <input type="text" id="cardholder-name" name="cardholder-name" placeholder="Cardholder Name"
+                        required>
+                    <input type="text" id="card-number" name="card-number" placeholder="Card Number" maxlength="19"
+                        required>
+                    <input type="text" id="expiration-date" name="expiration-date" placeholder="MM/YY" maxlength="5"
+                        required>
+                    <input type="text" id="cvv" name="cvv" placeholder="CVV" maxlength="4" required>
+                    <button type="submit">Submit Payment</button>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

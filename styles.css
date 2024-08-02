@@ -105,3 +105,45 @@ main {
     padding: 50px;
     height: 100vh;
 }
+
+.card-form-container {
+	background-color: rgba(255, 255, 255, 0.8);
+	border-radius: 15px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	padding: 30px;
+	width: 400px;
+	text-align: center;
+	position: relative;
+	left: 40%;	
+
+	justify-content: center;
+	background-color: #f0f0f0;
+	margin: 0;
+}
+.card-form-container h2 {
+	margin-bottom: 20px;
+}
+.card-form-container p {
+	color: #555;
+	margin-bottom: 20px;
+}
+.card-form-container input {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 15px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+.card-form-container button {
+	background-color: #4CAF50;
+	color: white;
+	padding: 10px 15px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	width: 100%;
+}
+.card-form-container button:hover {
+	background-color: #45a049;
+}
