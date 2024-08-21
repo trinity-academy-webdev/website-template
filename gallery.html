@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Gallery</title>
+        <meta name="description" content="">
+        <link rel="stylesheet" href="gallery-styles.css">
+    </head>
+    <body>
+        <header>
+            <a href="index.html"><p class="logo">Logo</p></a>
+            <ul class="nav_links">
+                <li><a href="index.html#link1-section">Link 1</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="#">Link 3</a></li>
+                <li><a href="#">Link 4</a></li> <!-- points to OTR website -->
+            </ul>
+            <a class="cta" href="#"><button>donate button here</button></a>
+            <div id="popup"></div>
+        </header>
+
+        <main>
+            <div id="hero-section">
+                <h1>Gallery</h1>
+                <div class="slideshow-container">
+                    <div class="slide fade">
+                        <img src="Charity Images/pexels-cottonbro-6590920.jpg" alt="Slide 1">
+                    </div>
+                    <div class="slide fade">
+                        <img src="Charity Images/pexels-mikhail-nilov-7469213.jpg" alt="Slide 2">
+                    </div>
+                    <div class="slide fade">
+                        <img src="Charity Images/pexels-rdne-6646918.jpg" alt="Slide 3">
+                    </div>
+                    <div class="slide fade">
+                        <img src="Charity Images/pexels-suraphat-933620.jpg" alt="Slide 4">
+                    </div>
+                    <div class="slide fade">
+                        <img src="Charity Images/pexels-suraphat-933624.jpg" alt="Slide 5">
+                    </div>
+                    <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+                    <a class="next" onclick="changeSlide(1)">&#10095;</a>
+                </div>
+                <br>
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span> 
+                    <span class="dot" onclick="currentSlide(2)"></span> 
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span> 
+                    <span class="dot" onclick="currentSlide(5)"></span> 
+                </div>
+            </div>
+        </main>
+        <script src="gallery-script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+li, a, button, .logo {
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+#click {
+    display: none;
+}
+
+header {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 100vw;
+    background-color: rgba(255, 255, 255, 0.5)
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #0088A9;
+}
+
+button {
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: rgba(0, 136, 169, 1);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* main {
+  
+} */
+
+#hero-section {
+    padding: 30px;
+    height: 100vh;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    flex-direction: column;
+    flex: content;
+    align-content: center;
+}
+
+#hero-section h1 {
+    padding-bottom: 20px;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.section { 
+    padding: 50px;
+    height: 100vh;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    position: relative;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    border: 3px solid #f1f1f1;
+    background: #000;
+}
+
+.slide {
+    display: none;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.slide img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}

@@ -3,3 +3,5 @@ add css gradients - https://cssgradient.io/gradient-backgrounds/
 or change background gradient to an image
 figure out how flex box works
 one of the navbar links is already implemented - try doing another one (either to same page or another)
+
+gallery pictures: https://www.pexels.com/search/charity/
