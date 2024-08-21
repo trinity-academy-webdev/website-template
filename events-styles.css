@@ -26,7 +26,7 @@ header {
 	padding-left: 10%;
 	padding-right: 10%;
 	width: 100%;
-    background-color: #01A982
+    background-color: #008062
 }
 
 .nav_links {
@@ -70,53 +70,29 @@ button:hover {
 	font-weight: bold;
 }
 
+#charity-table table{
+	width: 100%;
+	border: 1px solid;
+}
+
+#charity-table th{
+	background-color: white;
+}
+#charity-table th, td{
+	border-bottom: 1px solid;
+}
+
 #hero-section {
     padding: 30px;
     height: 100vh;
     background-color: #01A982;
-    background-image: url("https://wallpaperaccess.com/full/4888711.jpg");
-	background-repeat: no-repeat;
-	background-position: top;
-	background-attachment: fixed;
 	background-size: 100% 100%;
     flex-direction: column;
     flex: content;
     align-content: center;
 }
 
-#hero-section p {
-	font-size: 20px;
-	color: white;
-	text-align: center;
-}
 
-#link1-section {
-	padding: 30px;
-    height: 100vh;
-    background-color: #2dc4a0;
-    /* flex-direction: column;
-    flex: content; */
-    align-content: center;
-}
-
-#link1-section img {
-	height: 60%;
-    align-content: center;
-}
-
-#bottom-section{
-	padding: 30px;
-    height: 100vh;
-    background-color: #01A982;
-    background-image: url("http://www.tellmehow.co/wp-content/uploads/2018/06/HPE.jpg");
-	background-repeat: no-repeat;
-	background-position: top;
-	background-attachment: fixed;
-	background-size: 100% 100%;
-    flex-direction: column;
-    flex: content;
-    align-content: center;
-}
 
 #hero-section h1,#bottom-section h1 {
     padding-bottom: 20px;
