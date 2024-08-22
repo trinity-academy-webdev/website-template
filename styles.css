@@ -26,7 +26,7 @@ header {
 	padding-left: 10%;
 	padding-right: 10%;
 	width: 100%;
-    background-color: #01A982
+    background-color: #309b82
 }
 
 .nav_links {
@@ -73,7 +73,7 @@ button:hover {
 #hero-section {
     padding: 30px;
     height: 100vh;
-    background-color: #01A982;
+    background-color: #409c87;
     background-image: url('/../Charity Images/pexels-rdne-6646918.jpg');
 	background-repeat: no-repeat;
 	background-position: top;
