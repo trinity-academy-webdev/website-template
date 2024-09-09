@@ -8,7 +8,7 @@ In this session you will work with HTML. You need to complete the following task
     - [ ] Change the text below the title to include the name of your school.
 2. Changing the description:
     - [ ] Change the header of the description section.
-    - [ ] Change the description text to include a breif description of what you want.
+    - [ ] Change the description text to include a brief description of what you want.
 3. Adding an image
     - [ ] Using the img tag choose one of the images from the Charity Images folder to display below the description.
     - [Extension 1] Centering the image
