@@ -26,7 +26,7 @@ In this session, you'll learn some basic CSS styling. This week you will work in
         - [ ] background-image. Here we pass in a linear-gradient function which creates a gradient on the background.
                 Here you can change the color of the gradient, as well as its direction. Find out more about gradients <a href="https://www.w3schools.com/css/css3_gradients.asp">here</a>:
 2. Centre the gallery element
-    - [ ] Using css, centre the element with the id "hero-element". For help consult <a href="https://www.w3schools.com/css/css_align.asp">here</a>
+    - [ ] Using css, centre the element with the id "hero-section". For help consult <a href="https://www.w3schools.com/css/css_align.asp">here</a>
 3. Change the image border
     - [ ] Using css, edit the border of the element with id "slideshow-container". Look <a href="https://www.w3schools.com/css/css_border.asp">here</a>  for different options of borders
 
