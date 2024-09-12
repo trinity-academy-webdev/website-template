@@ -49,10 +49,6 @@ In this session, we'll work more on other HTML and CSS! This week's focus is the
   - [ ] (DIFFICULT) Trying to fit the tables onto dropdown menus: https://www.w3schools.com/css/css_dropdowns.asp
   - [ ] Adding some javascript for animations (e.g. making the tables spin once when entering the page!)
 
-TODO:
-Format the table Poorly, get them to fix it
-Get the website ready for the new table.
-
 # 5. Session 5. Wrap up and personalise the website!
 In this session we will be wrapping up all the previous parts and adding features you want to add to your website:
   - [ ] Wrap up all previous tasks.
