@@ -74,7 +74,7 @@ button:hover {
     padding: 30px;
     height: 100vh;
     background-color: #409c87;
-    background-image: url('/../Charity Images/pexels-rdne-6646918.jpg');
+    background-image: url('./Charity Images/pexels-rdne-6646918.jpg');
 	background-repeat: no-repeat;
 	background-position: top;
 	background-attachment: fixed;
@@ -108,7 +108,7 @@ button:hover {
 	padding: 30px;
     height: 100vh;
     background-color: #01A982;
-    background-image: url('/../Charity Images/pexels-suraphat-933624.jpg');
+    background-image: url('./Charity Images/pexels-suraphat-933624.jpg');
 	background-repeat: no-repeat;
 	background-position: top;
 	background-attachment: fixed;
