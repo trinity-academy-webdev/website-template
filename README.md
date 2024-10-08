@@ -31,11 +31,20 @@ In this week you will work with HTML. Try completing the following tasks (feel f
 In this session, you’ll learn some basic CSS styling. This week you will work in the gallery page. Have a go at the following tasks: 
 
 1. Changing the background
-    - [ ] In the CSS file, find the `hero-section` selector, and do the following:
+    - [ ] In the `gallery-styles.css` file, find the `hero-section` selector, and do the following:
         - [ ] Change the `background-color` style, which decides the color of the background
-        - [ ] background-image. Here we pass in a linear-gradient function which creates a gradient on the background.
-                Here you can change the color of the gradient, as well as its direction. Find out more about gradients <a href="https://www.w3schools.com/css/css3_gradients.asp">here</a>:
+        - [ ] **Extension**: Try adding some CSS to the `hero-section` so that the background is a gradient instead of a solid color. Use [this website](https://www.w3schools.com/css/css3_gradients.asp) for a hint on how to do this.
 2. Centre the gallery element
-    - [ ] Using css, centre the element with the id "hero-section". For help consult <a href="https://www.w3schools.com/css/css_align.asp">here</a>
+    - [ ] Let's make the slideshow appear in the centre of the page. Add some CSS to the `slideshow-container` to make the slideshow images appear in the middle. For a hint, see [here](https://www.w3schools.com/css/css_align.asp)
+    - [ ] Make sure the dots below the slideshow images are centered too - the CSS code should be similar to the last task, but you'll have to add it to a different selector.
 3. Change the image border
-    - [ ] Using css, edit the border of the element with id "slideshow-container". Look <a href="https://www.w3schools.com/css/css_border.asp">here</a>  for different options of borders
+    - [ ] Edit the border of the `slideshow` element. See [here](https://www.w3schools.com/css/css_border.asp) for different border options.
+4. Make the slideshow bigger
+   - [ ] The images are a bit small - can you figure out how to make the slideshow bigger?
+5. Change the slideshow images
+   - [ ] Back to some HTML - try changing out the default images in the slideshow for some images of your own choice.
+  
+## Some other ideas for CSS styling
+Done with the tasks? Why not try the following to make your website look even better:
+- Try changing the font (either for the whole page or only for certain bits such as headings to make them stand out more)
+- Try changing the colour of the arrows on the slideshow
