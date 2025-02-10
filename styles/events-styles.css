@@ -1,0 +1,133 @@
+/* General Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Container Styles */
+.container-fluid {
+    width: 100%;
+    margin: 20px auto 0; /* Simplified margin for spacing below the header */
+    padding: 0 20px; /* Consistent horizontal spacing */
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px; /* Space from other content */
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+    text-transform: uppercase; /* Distinct header style */
+}
+
+td {
+    background-color: #fff;
+}
+
+.book-btn {
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.book-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Header Styles */
+.header {
+    position: fixed; /* Fix the header to the top */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    width: 100%;
+    background-color: #37afeb;
+    border-bottom: 1px solid #ddd;
+    z-index: 1000; /* Ensure the header stays on top */
+}
+
+/* Logo Styles */
+.logo {
+    font-size: 24px; /* Slightly larger logo */
+    font-weight: bold;
+    color: white; /* High contrast for visibility */
+}
+
+/* Navigation Styles */
+.nav_links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between navigation items */
+}
+
+.nav_links li a {
+    font-weight: 500;
+    font-size: 16px;
+    color: white; /* Match header text color */
+    text-decoration: none;
+    transition: color 0.3s ease; /* Smooth hover transition */
+}
+
+.nav_links li a:hover {
+    color: #0088A9; /* Hover color for navigation links */
+}
+
+/* Tickets Button */
+header .tickets {
+    background-color: rgb(56, 61, 157);
+    border: none;
+    border-radius: 20px; /* Rounded button corners */
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+header .tickets:hover {
+    background-color: rgb(47, 150, 240);
+}
+
+.title{
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav_links {
+        flex-direction: column;
+        gap: 10px; /* Reduced spacing for smaller screens */
+        margin-top: 10px;
+    }
+
+    .tickets {
+        margin-top: 10px;
+        align-self: flex-end;
+    }
+}
+
+

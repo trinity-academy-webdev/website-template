@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #bcd2fb;
+  }
+
+  #gallery-container {
+    position: relative;
+    display: inline-block;
+  }
+
+  #current-image {
+    width: 500px;
+    height: auto;
+  }
+
+  .nav-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 30px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .prev-btn {
+    left: 0;
+  }
+
+  .next-btn {
+    right: 0;
+  }
+  header {
+    position: absolute;/* Fix position of the container */
+    display: flex;
+    justify-content: space-between;/* Align text with adequate spacing*/
+    width: 100%;
+    background-color: #37afeb;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .tickets{
+    background-color: rgb(56, 61, 157); /* Customize button color */
+    border: none; /* Remove default border */
+    border-radius: 20%; /* Make the button round */
+    color: rgb(0, 0, 0); /* Text color */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    display: flex; /* Align text inside the button */
+    justify-content: center; /* Center text horizontally */
+    text-decoration: none;
+  }
+  .tickets:hover{
+    background-color: rgb(47, 150, 240);
+  }
+  .logo {
+    position: absolute; /* Position relative to the container */
+    left: 10px; /* Align to the left */
+    bottom: 0px;/* Padding from the bottom of the page */
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 0;
+  }
+  .main-content{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    background-color: rgb(47, 150, 240);
+  }

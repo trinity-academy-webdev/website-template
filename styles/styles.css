@@ -1,0 +1,141 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+li, a, button, .logo {
+	font-weight: 500;
+	font-size: 16px;
+    color: black;
+	text-decoration: none;
+}
+
+header {
+	position: absolute;/* Fix position of the container */
+	display: flex;
+	justify-content: space-between;/* Align text with adequate spacing*/
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 10%;
+	padding-right: 10%;
+	width: 100%;
+    background-color: #37afeb
+}
+header .tickets{
+	position: absolute; /* Position relative to the container */
+    top: 10px; /* Add spacing from the top */
+    right: 10px; /* Add spacing from the right */
+    background-color: rgb(56, 61, 157); /* Customize button color */
+    border: none; /* Remove default border */
+    border-radius: 20%; /* Make the button round */
+    color: rgb(0, 0, 0); /* Text color */
+    font-size: 16px; /* Text size */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    display: flex; /* Align text inside the button */
+    justify-content: center; /* Center text horizontally */
+}
+header .tickets:hover{
+	background-color: rgb(47, 150, 240); 
+}
+
+.nav_links {
+	list-style: none;
+	justify-content: center;
+}
+
+.nav_links li {
+	display: inline-block;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+	padding-right: 20px;
+	justify-content: center;
+}
+
+.nav_links li a {
+	transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+	color: #0088A9;
+}
+
+.logo {
+    position: absolute; /* Position relative to the container */
+	top:25px;/* Padding from the top of the page */
+    left: 10px; /* Align to the left */
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#hero-section {
+    padding: 50px; /* Padding between the navbar and main content */
+    height: 100vh; /* full viewport display */
+    background-color: #bcd2fb;
+	background-size: 100% 100%;
+    flex-direction: column;
+    flex: content;
+    align-content: center;
+}
+
+#hero-section p {
+	font-size: 20px;
+	color: white;
+	text-align: center;
+}
+
+#link1-section {
+	padding: 30px;
+    height: 100vh;
+    background-color: #69c1df;
+    flex-direction: column;
+    flex: content;
+    align-content: center;
+	font-size: 24px;
+	text-align: center;
+}
+
+#link1-section img {
+	height: 60%;
+    align-content: center;
+}
+
+#footer{
+	padding: 30px;
+    background-color: #245bda;
+	background-position: top;
+	background-size: 100% 100%;
+    flex-direction: column;
+    flex: content;
+    align-content: center;
+	text-align: center;
+}
+
+#hero-section h1,#bottom-section h1 {
+    padding-bottom: 10px;
+	padding-top: 40px;
+	font-size: 70px;
+	text-align: center;
+}
+
+.section {
+    padding: 50px;
+    height: 100vh;
+}
+.image-section {
+    display: flex;
+    align-items: center; /* Centers vertically */
+    justify-content: center; /* Centers horizontally */
+    width: 100vw; /* Full viewport width for testing */
+    height: 20vh; /* Full viewport height for testing */
+	background-color: #bcd2fb;
+}
+.image-section img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; /* Ensures the image fits within the container */
+	position: relative; /* Use absolute positioning */
+    top: -500px; /* Move up by 50px */
+}

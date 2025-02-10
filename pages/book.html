@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Book Tickets</title>
+    <meta name="description" content="">
+    <link rel="stylesheet" href="/styles/book-styles.css">
+</head>
+
+<body>
+    <header>
+    </header>
+
+    <main>
+        <div id="hero-section">
+            <div class="card-form-container">
+                <button type="close" class="close">x</button>
+                <h2>Enter Your Details</h2>
+                <p>Please fill in the details below to complete your booking.</p>
+                <form>
+                    <input type="text" id="name" name="name" placeholder="Name"
+                        required>
+                    <input type="email" id="email" name="email" placeholder="Email"
+                        required>
+                    <label for="date">Date:</label>
+                    <input type="text" id="date" name="date" placeholder="DD/MM/YY" maxlength="8" required>
+                    <label for="time">Select Time:</label>
+                    <select id="time" name="time" required>
+                    <option value="">--Select Time--</option>
+                    </select>
+                    <button type="submit" class="submit">Submit Booking</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            $('.close').on('click', function(){
+                window.location.href = '/pages/index.html';
+            });
+            $('.submit').on('click', function(){
+                window.location.href = "/pages/index.html"
+            });
+            const $select = $("#time");
+            for (let hour = 0; hour < 24; hour++) {
+            for (let minute = 0; minute < 60; minute += 30) { // Change 30 to a different interval if needed
+            const time = `${hour.toString().padStart(2, '0')}:${minute.toString().padStart(2, '0')}`;
+            $select.append(new Option(time, time));
+            }
+        }
+        });
+    </script>
+    <script>
+        document.getElementById("date").addEventListener("input", function (e) {
+          let input = e.target.value;
+          // Remove non-numeric characters except slashes
+          input = input.replace(/[^0-9/]/g, "");
+      
+          // Auto-insert slashes for formatting
+          if (input.length > 2 && input[2] !== '/') {
+            input = input.slice(0, 2) + '/' + input.slice(2);
+          }
+          if (input.length > 5 && input[5] !== '/') {
+            input = input.slice(0, 5) + '/' + input.slice(5);
+          }
+      
+          // Limit to "DD/MM/YY" format
+          if (input.length > 8) {
+            input = input.slice(0, 8);
+          }
+      
+          e.target.value = input;
+        });
+      </script>
+</body>
+
+</html>
